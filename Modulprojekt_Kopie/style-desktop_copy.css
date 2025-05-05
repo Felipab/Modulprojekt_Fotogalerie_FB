@@ -1,0 +1,47 @@
+/* Alles was das ganze Dokument betrifft */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+}
+
+body {
+    background-color: #e2dfcd;
+    ;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Container1 {
+    display: flex;
+    justify-content: baseline;
+    padding: 1em;
+}
+
+.Container2 {
+    display: flex;
+    justify-content: baseline;
+    padding: 1em;
+}
+
+.Container3 {
+    display: flex;
+    justify-content: baseline;
+    padding: 1em;
+}
+
+.Item {
+    background-color: #9ba53b;
+    justify-self: center;
+    padding: 1em;
+    border: solid #302627;
+    margin: 1em;
+}

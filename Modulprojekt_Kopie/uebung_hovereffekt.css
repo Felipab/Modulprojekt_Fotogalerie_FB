@@ -1,0 +1,31 @@
+.bilder {
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.bilder:hover .textbild {
+    width: 300px;
+}
+
+.bilder img {
+    display: block;
+    width: 300px;
+
+}
+
+.textbild {
+    width: 0px;
+    background: rgba(100, 60, 180, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+
+.textbild p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
